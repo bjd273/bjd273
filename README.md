@@ -37,7 +37,7 @@ I build **full-stack web applications** from the ground up — from database sch
 
 ## 📦 Featured Projects
 
-### 🏫 [Robotics Class Portal](https://github.com/bjd273/Class-App) — Full-Stack Classroom Management Platform
+### 🏫 [Robotics Class Portal](https://themissioncontrol.vercel.app/) — Full-Stack Classroom Management Platform
 
 > **Three apps in one** — a public-facing site, student portal, and teacher admin hub — all powered by Google Sheets as the database.
 
@@ -76,7 +76,7 @@ I build **full-stack web applications** from the ground up — from database sch
 
 ---
 
-### ⛪ [Restore Ministries](https://github.com/bjd273/restore-new) — Ministry Website & Content Platform
+### ⛪ [Restore Ministries](https://restoreministries.vercel.app/) — Ministry Website & Content Platform
 
 > A modern, scroll-animated website with a full CMS, member authentication, and media management — built for a ministry to manage sermons, blog posts, podcasts, and worship content.
 
