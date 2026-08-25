@@ -2,7 +2,7 @@
 
 # Hey, I'm Bennett Daniel 👋
 
-**Full-Stack Developer** · Building production apps that solve real problems for real people
+**Mechatronics Engineer** · Building production apps that solve real problems for real people
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-bennettdaniel.notion.site-000?style=for-the-badge&logo=notion&logoColor=white)](https://bennettdaniel.notion.site/Hello-I-m-Bennett-Daniel-15b209d3c94a805f941eea5905d967ae)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bennettdaniel)
