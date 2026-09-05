@@ -187,7 +187,7 @@ All ported from real MATLAB/Simulink coursework, each solving and rendering its 
 
 ## 📄 Publications
 
-Joseph, D.B. et al. **Smart Accident Fatality Reduction (SAFR) System.** (2023). In: *Third Congress on Intelligent Systems, CIS 2022*. Lecture Notes in Networks and Systems, vol 613. Springer, Singapore.
+Joseph, D.B. et al. [**Smart Accident Fatality Reduction (SAFR) System.**](https://link.springer.com/chapter/10.1007/978-981-19-9379-4_38) (2023). In: *Third Congress on Intelligent Systems, CIS 2022*. Lecture Notes in Networks and Systems, vol 613. Springer, Singapore.
 
 ## 🏆 Achievements
 
