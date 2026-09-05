@@ -2,7 +2,7 @@
 
 # Hey, I'm Bennett Daniel 👋
 
-**Mechatronics Engineer** · Building production apps that solve real problems for real people
+**Mechanical Engineer** · Control Systems · Vehicle Dynamics · Autonomous Vehicle Technologies
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-bjd273.github.io-000?style=for-the-badge&logo=githubpages&logoColor=white)](https://bjd273.github.io/Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bennettdaniel)
@@ -12,26 +12,62 @@
 
 ---
 
-I build **full-stack web applications** from the ground up — from database schema design to polished, responsive UIs. Every project below is **deployed, in active use**, and built to handle the messy realities of actual users. I care about clean architecture, thoughtful UX, and shipping things that work.
+Mechanical engineer with a Master's from UT Dallas, focused on **control systems, vehicle dynamics, and autonomous driving**. I've designed an electronic stability controller that cut brake-system weight by **4 kg**, built cost-based path-planning algorithms in **ROS2** for autonomous navigation, and led cross-functional teams from modeling and simulation through real-world validation. Currently teaching robotics and controls at the high-school level while building toward my next role accelerating autonomous vehicle development.
 
-## 🛠️ Tech Stack
+## 🛠️ Skills
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=next.js&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Google APIs](https://img.shields.io/badge/Google_APIs-4285F4?style=flat-square&logo=google&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Claude_API-191919?style=flat-square&logo=anthropic&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
+![Simulink](https://img.shields.io/badge/Simulink-black?style=flat-square)
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-E4002B?style=flat-square)
+![ANSYS](https://img.shields.io/badge/ANSYS-FFB71B?style=flat-square&logoColor=black)
+![CarMaker](https://img.shields.io/badge/CarMaker-black?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
+
+| | |
+|---|---|
+| **Programming** | Python, C++, ROS2, Linux, Git, Jira |
+| **Machine Learning & CV** | YOLO, CNN, Object Detection & Classification, Reinforcement Learning, Deep Learning |
+| **Technical Tools** | MATLAB, Simulink, Simscape, OptimumDynamics, CarMaker, Parametric Creo, ANSYS, SolidWorks |
+| **Automotive Systems** | Tire Force Modeling, Suspension Mechanics, Brake System Design, Path Planning, ADAS |
+| **Control & Estimation** | PID Control, Model Predictive Control, Optimal Control, Observer Design, Differential Flatness |
+
+---
+
+## 💼 Work Experience
+
+**CTE Teacher** — Dallas ISD, Barack Obama Male Leadership Academy · *Sep 2025 – Present*
+Teach programming, robotics control systems, and applied engineering; guide project-based learning with SolidWorks CAD and rapid prototyping, and apply PID/MPC concepts in hands-on modules that feed regional robotics competitions.
+
+**Master's Thesis Student** — NOVA, UT Dallas Premier Autonomous Driving Group · *Aug 2023 – May 2025*
+Researched and benchmarked cost-based path-planning algorithms in ROS2, integrating the top-performing method into the open-source Navigator stack. Validated performance in CARLA across urban and highway SIL scenarios, and applied optimal/PID control in Simscape to improve trajectory efficiency and obstacle avoidance.
+
+**Vehicle Dynamics Lead Engineer** — Comet Solar Racing · *Jan 2024 – May 2025*
+Designed and validated an Electronic Stability Controller in MATLAB/CarMaker, improving lateral stability during cornering. Built a full-lap simulator with PID-based closed-loop control in Simulink, redesigned the brake system layout for a **4 kg** weight reduction, and engineered the wheel hub and front suspension (SolidWorks + ANSYS FEA).
+
+**Research Assistant** — Automotive Research Cell · *Sep 2022 – May 2023*
+Co-authored research on Smart Accident Fatality Reduction (SAFR), building hardware in SolidWorks and classification algorithms with reinforcement learning and ROS2. Designed a vehicle-mounted emergency response device integrating ROS2 communication and differential-flatness control.
+
+**Deep Learning Intern** — Artenal · *Aug 2022 – Nov 2022*
+Trained YOLO and SSD models in PyTorch on 1,000+ annotated images and deployed them via ROS2 for real-time waste classification, fine-tuning to **95%** classification accuracy.
+
+---
+
+## 🚗 Engineering Projects
+
+- **Robust Control of Active Suspension System** — Modeled an active suspension system in MATLAB with H2 and H∞ control strategies, injecting disturbances and uncertainties to validate robustness. Achieved **93% robust performance** across 3 driving modes, simulated in Simulink.
+- **Model-Free Longitudinal Speed Controller** — Designed a model-free speed controller for autonomous vehicles in MATLAB/Simulink, analyzing Tire-Road Friction Coefficient (TRFC) and applying torque constraints and Algebraically Estimated Derivative (ADE) techniques for noise-resistant speed tracking.
+- **Active Bus Footboard Avoidance System (ABFAS)** — Designed a safety system for Indian public buses in SolidWorks that detects open doors and footboard occupancy via reed switches and force sensors, and locks the accelerator pedal under unsafe conditions. Validated the locking mechanism with ANSYS material analysis.
+
+> The vehicle-dynamics and controls work above is also demonstrated live, in-browser, in the [Portfolio](#-portfolio--interactive-control-systems--vehicle-dynamics-simulations) project below — including a from-scratch active-suspension LQR compensator.
 
 ---
 
@@ -142,24 +178,42 @@ All ported from real MATLAB/Simulink coursework, each solving and rendering its 
 
 ---
 
+## 🎓 Education
+
+| | |
+|---|---|
+| **M.S., Mechanical Engineering** | University of Texas at Dallas · 2023 – 2025 · Richardson, TX |
+| **B.E., Automobile Engineering** | Anna University · 2019 – 2023 · Chennai, India |
+
+## 📄 Publications
+
+Joseph, D.B. et al. **Smart Accident Fatality Reduction (SAFR) System.** (2023). In: *Third Congress on Intelligent Systems, CIS 2022*. Lecture Notes in Networks and Systems, vol 613. Springer, Singapore.
+
+## 🏆 Achievements
+
+- **Budding Bright Engineering Award** — Exceptional academic performance
+- **Intramural Innovative Projects Funding Recipient**
+- **Multiple Hackathon Winner**
+
+---
+
 ## 🧩 What I Bring
 
 | | |
 |---|---|
-| **Full-Stack Ownership** | I design the database schema, build the API layer, and ship the UI. No hand-offs needed. |
-| **Production Mindset** | These aren't tutorial projects — they handle real users, real auth, real data, and real edge cases. |
-| **Pragmatic Architecture** | Using Google Sheets as a database sounds unconventional until you realize it gives every teacher an admin panel they already know how to use. I pick the right tool for the problem. |
-| **AI Integration** | I build AI into products as a UX enhancement (Jarvis command palette), not as a gimmick. |
-| **Ship Fast, Iterate** | Both projects went from zero to deployed and in active use. I bias toward getting it in front of users. |
+| **Full-Stack Ownership** | From MATLAB/Simulink models to ROS2 nodes to production web apps, I design, build, and validate the whole system — no hand-offs needed. |
+| **Simulation-to-Reality Pipeline** | I model in MATLAB/Simulink, validate in CarMaker/CARLA, then fabricate and test the physical result — control theory that survives contact with hardware. |
+| **Production Mindset** | These aren't tutorial projects — they handle real users, real auth, real data, real vehicles, and real edge cases. |
+| **AI Integration** | I build AI (ROS2 perception, YOLO classification, Claude tool-use) into products as a functional enhancement, not a gimmick. |
+| **Ship Fast, Iterate** | From a 4 kg brake-system redesign to a deployed classroom platform, I bias toward getting real work in front of real users. |
 
 ---
 
 <div align="center">
 
-*I'm looking for my next opportunity to build impactful software. Let's talk.*
+*I'm looking for my next opportunity to accelerate autonomous vehicle development. Let's talk.*
 
 [![Email](https://img.shields.io/badge/bjd273@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bjd273@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Full_Portfolio-000?style=for-the-badge&logo=githubpages&logoColor=white)](https://bjd273.github.io/Portfolio/)
 
 </div>
-
