@@ -4,7 +4,7 @@
 
 **Mechatronics Engineer** · Building production apps that solve real problems for real people
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-bennettdaniel.notion.site-000?style=for-the-badge&logo=notion&logoColor=white)](https://bennettdaniel.notion.site/Hello-I-m-Bennett-Daniel-15b209d3c94a805f941eea5905d967ae)
+[![Portfolio](https://img.shields.io/badge/Portfolio-bjd273.github.io-000?style=for-the-badge&logo=githubpages&logoColor=white)](https://bjd273.github.io/Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bennettdaniel)
 [![Email](https://img.shields.io/badge/Email-bjd273@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bjd273@gmail.com)
 
@@ -109,6 +109,39 @@ I build **full-stack web applications** from the ground up — from database sch
 
 ---
 
+### 🎡 [Portfolio](https://bjd273.github.io/Portfolio/) — Interactive Control Systems & Vehicle Dynamics Simulations
+
+> Graduate control-systems and vehicle-dynamics coursework ported from MATLAB/Simulink into live, in-browser simulations — no screenshots, no canned animations.
+
+<details>
+<summary><b>🔍 Click to expand full breakdown</b></summary>
+
+<br>
+
+**The Problem:** A static portfolio site or a PDF of coursework doesn't do justice to control theory and vehicle dynamics work — the whole point of the math is *how the system behaves over time*. I wanted a way to show that behavior directly, running live, rather than describing it.
+
+**The Solution:** A home page built around a 3D sphere of project cards, rendered on a plain 2D canvas — no WebGL library, no frameworks, no build step. Every card runs its project's actual simulation continuously in the background; selecting a card rotates it to face the viewer and opens its write-up. Only front-facing cards are rendered and stepped, so the cost stays flat no matter how many projects are on the sphere.
+
+#### 📦 The seven simulations
+
+All ported from real MATLAB/Simulink coursework, each solving and rendering its own physics or control problem live:
+
+- **Double Pendulum** — Euler–Lagrange equations of motion for two coupled rods, integrated with a 4th-order Runge–Kutta solver. Two pendulums run identical equations from starting angles 0.05° apart, enough to make them diverge completely within seconds — chaos, visualized.
+- **Robot Navigation** — A 41×41 grid where each move can slip sideways with a probability that depends on the previous move. The optimal policy is solved by backward induction over the full state space, then verified live by continuous Monte Carlo rollouts.
+- **Adaptive Cruise Control** — A PID spacing controller proven against every vehicle within ±7% mass and ±30% drag of nominal, driven by the real recorded lead-vehicle speed trace from the original test.
+- **14-DOF Vehicle Model** — A car corners on its actual Magic Formula tire curve — real mass, inertia, and geometry pulled from the reference model — until the front tires visibly run out of grip.
+- **Active Suspension** — A quarter-car LQR compensator with its Riccati equation solved and verified live in-browser, trading ride comfort for control on a single dial.
+- **Aircraft Pitch Control** — A lightly-damped short-period pitch response tracking a real ±15°/s command through a real ±20° elevator limit, held by LQR with integral action.
+- **Solar Racing Vehicle** — A 255 kg solar racer's launch, genuinely traction-limited before it becomes power-limited, integrated live from rest rather than estimated from a single terminal value.
+
+#### ⚙️ Tech
+
+`Plain HTML/CSS/JavaScript` · `Canvas 2D` (custom 3D projection, rotation, depth-sorting, hit-testing) · `Numerical methods` (RK4 integration, backward induction, Riccati/LQR solvers, Magic Formula tire model)
+
+</details>
+
+---
+
 ## 🧩 What I Bring
 
 | | |
@@ -126,7 +159,7 @@ I build **full-stack web applications** from the ground up — from database sch
 *I'm looking for my next opportunity to build impactful software. Let's talk.*
 
 [![Email](https://img.shields.io/badge/bjd273@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bjd273@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Full_Portfolio-000?style=for-the-badge&logo=notion&logoColor=white)](https://bennettdaniel.notion.site/Hello-I-m-Bennett-Daniel-15b209d3c94a805f941eea5905d967ae)
+[![Portfolio](https://img.shields.io/badge/Full_Portfolio-000?style=for-the-badge&logo=githubpages&logoColor=white)](https://bjd273.github.io/Portfolio/)
 
 </div>
 
